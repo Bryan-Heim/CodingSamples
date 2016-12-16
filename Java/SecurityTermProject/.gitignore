@@ -1,0 +1,9 @@
+Test.java
+*.class
+*.bin
+*.jar
+shared_files/
+logs/
+MyKeys/
+SystemKeys/
+UserPubKeys/

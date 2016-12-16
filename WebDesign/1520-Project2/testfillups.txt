@@ -1,0 +1,4 @@
+Luke Skywalker#bph11cs1520+luke@gmail.com#Robot malfunction its frozen#The robot is being mean and not helping the workers#adminbryan#open
+Leia Organa#bph11cs1520+leia@gmail.com#Problem with Computer#Every time i turn on the pc it bluescreens#testing#open
+Han Solo#bph11cs1520+han@gmail.com#Computer is frozen#Computer will not turn on or even restart#Unassigned#open
+Super Mane#bph11cs1520_sup@gmail.com#Computer not working , Big Problem#Idk why this doesnt turn on but i need it fixed!#Unassigned#closed

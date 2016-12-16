@@ -1,0 +1,58 @@
+CREATE TABLE UserLogin
+(
+UserID int NOT NULL AUTO_INCREMENT,
+UserName varchar(48) NOT NULL,
+Password varchar(48) NOT NULL,
+PRIMARY KEY (UserID)
+) ENGINE=INNODB; 
+
+CREATE TABLE UserProfile
+(
+UserProfileID int NOT NULL AUTO_INCREMENT,
+UserID int,
+schoolID int,
+email varchar(255) DEFAULT NULL,
+PRIMARY KEY (UserProfileID),
+FOREIGN KEY (UserID) REFERENCES UserLogin(UserID),
+FOREIGN KEY (schoolID) REFERENCES School(schoolID)
+) ENGINE=INNODB; 
+
+CREATE TABLE School
+(
+schoolID int NOT NULL AUTO_INCREMENT,
+SchoolName varchar(255) NOT NULL,
+PRIMARY KEY (schoolID)
+) ENGINE=INNODB; 
+
+CREATE TABLE StudyGroup
+(
+StudyGroupID int NOT NULL AUTO_INCREMENT,
+StudyGroupName varchar(255) NOT NULL,
+CourseID int,
+PRIMARY KEY (StudyGroupID),
+FOREIGN KEY (CourseID) REFERENCES Course(CourseID)
+) ENGINE=INNODB; 
+
+CREATE TABLE Course
+(
+CourseID int NOT NULL AUTO_INCREMENT,
+CourseName varchar(255) NOT NULL,
+PRIMARY KEY (CourseID)
+) ENGINE=INNODB; 
+
+CREATE TABLE Membership
+(
+MembershipID int NOT NULL AUTO_INCREMENT,
+UserID int,
+StudyGroupID int,
+PRIMARY KEY (MembershipID),
+FOREIGN KEY (UserID) REFERENCES UserLogin(UserID),
+FOREIGN KEY (StudyGroupID) REFERENCES StudyGroup(StudyGroupID)
+) ENGINE=INNODB; 
+
+$SQLCommand = "SELECT * FROM UserLogin WHERE UserName='$username'";
+$createQuery = "INSERT INTO UserLogin (UserName, Password) VALUES ('$username','$password')";
+
+SELECT * FROM StudyGroup
+SELECT * FROM Membership`	//used selects to see if data was populated.
+SELECT * FROM UserLogin 

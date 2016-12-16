@@ -1,0 +1,6 @@
+Which of the following natural wonders sits within two seperate countries?#Niagra Falls:London Eye:Mount Everest:Grand Canyon#0
+What country does Prince Edward Island belong to?#Australia:United Kingdom:Canada:Netherlands#2
+In what novel is Holden Caulfield the main character?#Fight Club:The Catcher in the Rye:The Neverending Story:Less Than Zero#1
+What are the name's of Will Smith's two kids?#Jaden and Taylor:Jaden and Willow:Jordan and Willow:Jordan and Taylor#1
+Who plays Daryl Dixon on The Walking Dead?#Andrew Lincoln:Michael Rooker:Norman Reedus:Chandler Riggs#2
+<Question>#<Answer1>:<Answer2>:...:<AnswerK>#<CorrectAnswerIndex>

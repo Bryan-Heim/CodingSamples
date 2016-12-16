@@ -1,0 +1,8 @@
+quiz1.txt#5
+quiz2.txt#5
+quiz3.txt#5
+quiz4.txt#5
+quiz5.txt#5
+quiz6.txt#5
+quiz7.txt#5
+<quizfilename>#<NumOfQuests>

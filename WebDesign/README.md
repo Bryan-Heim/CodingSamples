@@ -1,0 +1,2 @@
+###This directory contains code used in a Web Design class (1520) as well as a "StuddyBuddy" site I worked on. Project information can be found in their index.html files.
+Note on Security: None of the sites make use of PreparedStatements however all web design I have done since incorporates these to ensure safe database operations.

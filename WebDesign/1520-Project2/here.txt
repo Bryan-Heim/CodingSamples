@@ -1,0 +1,28 @@
+EMAIL USED: bph11cs1520@gmail.com
+PASSWORD: forschool111
+USE THIS FOR MAILING PURPOSES
+
+Three tables:
+users
+tickets
+ticket_statuess
+
+Users - Table
+login		// admins from flat file already defined
+password	Columns
+email			initialize these from flat file first
+admin_status
+
+TicketInfo - Table
+sender_name	//columns
+Email
+Subject
+B_D_P ( Brief description of problem)
+date
+ticket_id
+
+Ticket Status - 
+open_doing_closed status
+tech_name founder
+tech_name current	// usernames
+tech_email // from usernames table

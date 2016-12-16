@@ -1,0 +1,1 @@
+###This directory contains code to create a Linux kernal module that will simulate a 6-sided dice being rolled and comes with a craps game to test functionality.

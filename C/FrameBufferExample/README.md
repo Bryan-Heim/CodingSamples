@@ -1,0 +1,1 @@
+###This directory contains code that allows the frame-buffer to be mapped to memory and manipulated to draw simple objects/strings
